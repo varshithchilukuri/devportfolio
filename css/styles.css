@@ -483,7 +483,7 @@ footer {
 
 #education h2 {
     color: #374054;
-    margin-bottom: 50px
+    margin-bottom: 40px
 }
 
 .education-block {
@@ -524,6 +524,27 @@ footer {
     padding: 0 0 0 15px
 }
 
+#courses {
+    padding: 50px 15px 20px 15px;
+    border-bottom: 1px solid #dcd9d9;
+    text-align: center
+}
+
+#courses h2 {
+    color: #374054;
+    margin-bottom: 10px
+}
+
+#courses ul{
+    color: #374054;
+    margin-bottom: 0px
+}
+
+.courses h2{
+    padding: 50px 15px 20px 15px;
+    border-bottom: 1px solid #dcd9d9;
+    text-align: center
+}
 #projects {
     padding: 50px 15px;
     border-bottom: 1px solid #dcd9d9;
@@ -578,6 +599,23 @@ footer {
 
 #more-projects {
     display: none
+}
+#courses ul {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 800px;
+}
+
+#courses li {
+    display: inline-block;
+    margin: 5px; /* Slightly reduced margin */
+    padding: 5px 10px; /* Slightly reduced padding */
+    color: #374054;
+    background: #e4e4ea;
+    list-style: none;
+    cursor: default;
+    font-size: 1em; /* Slightly reduced font size */
 }
 
 #skills {
